@@ -1,0 +1,210 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  --Spread:flex;
+  --distance:space-between;
+  --fit:5%;
+}
+body{
+ overflow-x: hidden;
+ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+ }
+
+ nav, .download-section{
+  display: var(--Spread);
+  justify-content: var(--distance);
+  padding-left: var(--fit);
+  padding-right: var(--fit);
+  padding-top: var(--fit);
+  padding-bottom: 3.5%;
+ }
+ .nav-item-active{
+  background: white;
+  font-size: 0.9rem;
+  position: relative;
+  left: 2rem;
+ }
+ .nav-item{
+  color: #fff;
+  position: relative;
+  left: 3rem;
+ }
+ .nav-items{
+  color: #fff;
+  position: relative;
+  width: 3rem;
+  top: 0.7rem;
+  right: 1rem;
+ }
+
+.maindiv{
+  display: var(--Spread);
+  justify-content: var(--distance);
+  padding-left: var(--fit);
+  padding-top: 1rem;
+ }
+ .header-text{
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  top: 3.4rem;
+  font-style: "Poppins", sans-serif;
+ }
+ .companies{
+  position: relative;
+  padding-left: var(--fit);
+ }
+ .company-items{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+ }
+ .cards{
+  display: var(--Spread);
+  justify-content: space-evenly;
+  /* padding-left: 5%; */
+ }
+
+ .card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px;
+  padding: 2px;
+
+ }
+ .api-heading{
+  position: relative;
+  right: 1.3rem;
+  padding: 4rem;
+ }
+ .blog-cards{
+  display: var(--Spread);
+  justify-content: var(--distance);
+  padding-left: 3%;
+  padding-top: 2rem;
+ }
+ .blog-content{
+  padding: 5px;
+
+ }
+ .blog-bottom{
+  display: var(--Spread);
+  justify-content: space-around;
+  right: 23px;
+ }
+ .blog-author{
+   padding-right: 2.4rem;
+ }
+
+ .blog-card{
+  display: var(--Spread);
+  flex-direction: row;
+  margin: 3px;
+
+ }
+ .blog-image{
+  height: 1rem;
+ }
+
+ .blog-heading {
+  position: relative;
+  right: 1.3rem;
+  padding: 4rem;
+ }
+ .faq-section{
+  display: var(--Spread);
+  justify-content: space-evenly;
+  padding-top: 12rem;
+  
+ }
+ .faq-content{
+  background: rgb(165, 165, 234);
+  width: 100%;
+  height: 39vh;
+  background-image: url('./images/Rectangle_38-2\ \(1\).png');
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: right;
+  
+
+ }
+ .content{
+  position: relative;
+  left: 3rem;
+  top: 2rem;
+ }
+
+
+ .download-email{
+  border-radius: 14px;
+
+ }
+ .download-content{
+   font-weight: bolder;
+ }
+ span{
+  color: rgb(121, 114, 114);
+ }
+
+ .footer-section{
+  display: var(--Spread);
+  justify-content: var(--distance);
+  padding-left: var(--fit);
+  padding-top: 5rem;
+  background: blue;
+}
+ .footer{
+  position: relative;
+  bottom: 3rem;
+  right: 1rem;
+ }
+ .list{
+  list-style-type: none;
+ }
+ li{
+  display: inline-block;
+  margin: 4px;
+  color: rgb(201, 206, 210);
+ }
+ header{
+  background: blue;
+ }
+
+ .Arrow{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: block;
+  color: #fff;
+  background-color: blue;
+  text-align: center;
+  position: relative;
+  top: 2.5rem;
+ }
+ 
+ input{
+  border-radius: 15px;
+  padding: 10px;
+ }
+ button {
+  border-radius: 15px;
+  padding: 10px;
+  background: rgb(183, 183, 226);
+
+ }
+ p{
+  font-size: 3px;
+ }
+
+ .card-head-active{
+  color: blue;
+ }
