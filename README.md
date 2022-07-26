@@ -5,7 +5,7 @@ here's One
 
 ![](https://img.shields.io/static/v1?label=Project-9&message=Hitesh-sir&color=blue)
 
-[Go LIVE](https://github.com/Sourabhpande532)
+[Go LIVE](https://apis-category-ineuron.netlify.app/)
 
 ![completeWebsite](./images/9.png)
 
