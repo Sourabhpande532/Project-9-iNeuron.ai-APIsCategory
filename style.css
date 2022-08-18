@@ -224,16 +224,19 @@ p {
 
 /* mediaQuerry */
 
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 660px) {
   html,
   body {
     width: 100%;
-    height: 100%;
-    margin: 0;
+    height: 100vh;
+    margin: 0 auto;
     left: 0;
     right: 0;
+    float: none;
     position: absolute;
     align-items: center;
+    overflow-x: hidden;
   }
 
   nav {
@@ -257,24 +260,24 @@ p {
     left: -7rem;
   }
   .maindiv .header-text {
-    font-size: 1.4rem;
-    min-width: 11rem;
-    font-size: small;
+    min-width: 20rem;
+    font-size: x-large;
   }
   .companies {
-    font-size: xx-small;
+    font-size: small;
   }
   .company-items {
     padding: 3px;
     font-weight: 900;
   }
   .cards {
-    display: var(--Spread);
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 34px;
-    position: relative;
-    left: 2.4rem;
+  }
+  .cards .Arrow{
+    display: none;
+
   }
   .blog-cards {
    gap: 4rem;
@@ -299,7 +302,6 @@ p {
     flex-wrap: wrap;
     width: 14rem;
     gap: 1rem;
-    text-align: center;
     margin-left: 1.2rem;
 
   }
@@ -315,4 +317,10 @@ p {
     margin-right: 4rem;
   }
   
+}
+
+@media screen and (max-width:400px) {
+   .companies {
+    font-size: x-small;
+  }
 }
