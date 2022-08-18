@@ -264,7 +264,7 @@ p {
     font-size: x-large;
   }
   .companies {
-    font-size: small;
+    font-size: 20px;
   }
   .company-items {
     padding: 3px;
@@ -286,9 +286,7 @@ p {
   .see-all{
     display: none;
   }
-  .faq-section {
-   overflow: scroll;
-  }
+
   .faq-content {
     background-image: url(./images/Rectangle_38-2\ \(1\).png);
     background-size: 100px 45px;
