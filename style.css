@@ -257,7 +257,6 @@ p {
   }
   nav .list {
     display: flex;
-    margin-top: -0.4rem;
     font-size: 1.1rem;
   }
   nav .list button {
